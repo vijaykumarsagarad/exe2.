@@ -1,0 +1,15 @@
+English=75
+Science_Theory=75 
+Science_Practical=2 
+Science=Science_Theory+Science_Practical
+Mathematics=100
+total=English+Science+Mathematics
+percent=(total/275)*100
+if(English>=25)and(Science_Theory>=25)and(Science_Practical>=8)and(Mathematics>=35)and(Science>=35)and(percent>=38)and(percent<75):
+    print("avarage")
+elif(English>=25)and(Science_Theory>=25)and(Science_Practical>=8)and(Mathematics>=35)and(Science>=35)and(percent>=75)and(percent<90):
+    print("b")
+elif(English>=25)and(Science_Theory>=25)and(Science_Practical>=8)and(Mathematics>=35)and(Science>=35)and(percent>=90):
+    print("a")
+else:
+    print("fail")
